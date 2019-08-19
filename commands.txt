@@ -1,0 +1,33 @@
+DOCKER:
+запуск docker: sudo docker-compose up -d --build (-d для запуска в фоне, --build для обновления докер-файлов)
+остановить docker: sudo docker-compose down
+обращение к Django: sudo docker-compose exec web (python manage.py createsuperuser
+проверить логи: sudo docker-compose logs
+создать файл yml:touch docker-compose.yml
+создать файл Dockera:touch Dockerfile
+установка либы для Postgesql: sudo docker-compose exec web pipenv install psycopg2-binary(но при этом 
+							  в Dockerfile необходимо поменять [requires] python_version = "3.6" на [3.7])
+постоение докера: sudo docker build .
+проверка докеров: sudo docker info
+запуск теста для проекта: sudo docker-compose exec web python manage.py test (можем указать для определенных приложений 'pages')
+
+
+
+strogino2005
+
+
+
+
+
+
+
+GIT:
+инициализировать git: sudo git init
+проверить статуст:sudo git status
+добавить файл:git add .
+закомитить: git commit -m 'ch3'
+
+
+
+
+
