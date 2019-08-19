@@ -7,4 +7,12 @@
 
   <h1>Книжки</h1>
 
+{% if user.is_authenticated %}
+<p>Привет {{ user.email }}!</p>
+<p><a href="{% url 'logout' %}">Log Out</a></p>
+{% else %}
+  <p>Вы не зарегистрированы</p>
+<a href="{% url 'login' %}">Войти</a>
+<a href="{% url 'signup' %}">Регистрация</a>
+{% endif%}
 {% endblock content %}
