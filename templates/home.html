@@ -10,10 +10,10 @@
   <img class="bookcover" src="{% static 'images/djangoforprofessionals.jpg' %}">
 {% if user.is_authenticated %}
 <p>Привет {{ user.email }}!</p>
-<p><a href="{% url 'logout' %}">Log Out</a></p>
+<p><a href="{% url 'account_logout' %}">Log Out</a></p>
 {% else %}
   <p>Вы не зарегистрированы</p>
-<a href="{% url 'login' %}">Войти</a>
-<a href="{% url 'signup' %}">Регистрация</a>
+<a href="{% url 'account_login' %}">Войти</a>
+<a href="{% url 'account_signup' %}">Регистрация</a>
 {% endif%}
 {% endblock content %}
