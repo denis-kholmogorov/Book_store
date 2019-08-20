@@ -1,12 +1,13 @@
 
 {% extends '_base.html' %}
+{% load static %}
 
 {% block title %}Книги{% endblock title %}
 
 {% block content %}
 
   <h1>Книжки</h1>
-
+  <img class="bookcover" src="{% static 'images/djangoforprofessionals.jpg' %}">
 {% if user.is_authenticated %}
 <p>Привет {{ user.email }}!</p>
 <p><a href="{% url 'logout' %}">Log Out</a></p>
