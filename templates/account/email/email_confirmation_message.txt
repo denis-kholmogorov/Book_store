@@ -1,0 +1,8 @@
+{% load account %}{% user_display user as user_display %}{% load i18n %}{% autoescape off %}{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}Добро пожаловать в {{ site_name }}!
+
+Вы регистрируетесь на сайте под именем -> {{ user_display }} для регистрации вашего логина подтвердите свой email.
+
+Для подтверждения пройдите по ссылке -> {{ activate_url }}
+{% endblocktrans %}{% endautoescape %}
+{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}Thank you from {{ site_name }}!
+{{ site_domain }}{% endblocktrans %}
