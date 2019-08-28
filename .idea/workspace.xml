@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd324665-87b8-4426-8c6b-9ab7ba6b84c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/account/email/email_confirmation_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/email/email_confirmation_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/email_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/books/book_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/books/book_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookstore_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/djangoforprofessionals.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
@@ -35,6 +36,7 @@
   <component name="ProjectId" id="1PGly81Aqq9TjBPvlFJA9salZBt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
