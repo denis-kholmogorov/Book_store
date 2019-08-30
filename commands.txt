@@ -9,9 +9,11 @@ DOCKER:
 							  в Dockerfile необходимо поменять [requires] python_version = "3.6" на [3.7])
 постоение докера: sudo docker build .
 проверка докеров: sudo docker info
-запуск теста для проекта: sudo docker-compose exec web python manage.py test (можем указать для определенных приложений 'pages')
 
-git push -f origin master для слияния ветки в репо
+запуск теста для проекта: sudo docker-compose exec web python manage.py test (можем указать для определенных приложений 'pages')
+установка модулей: sudo docker-compose exec web pipenv install pillow==5.4.1 (после установки docker-compose down
+  $ docker-compose up -d --build)
+для слияния ветки в репо: git push -f origin master
 
 
 
