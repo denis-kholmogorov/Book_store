@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="bd324665-87b8-4426-8c6b-9ab7ba6b84c4" name="Default Changelist" comment="Merge branch 'master' of https://github.com/denis-kholmogorov/Book_store&#10;&#10;# Пожалуйста, введите сообщение коммита, для объяснения, зачем нужно&#10;# это слияние, особенно, если это слияние обновленной вышестоящей&#10;# ветки в тематическую ветку.&#10;#&#10;# Строки, начинающиеся с «#» будут проигнорированы, а пустое&#10;# сообщение отменяет процесс коммита.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/books/book_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/books/book_detail.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
