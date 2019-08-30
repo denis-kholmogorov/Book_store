@@ -11,6 +11,7 @@ DOCKER:
 проверка докеров: sudo docker info
 запуск теста для проекта: sudo docker-compose exec web python manage.py test (можем указать для определенных приложений 'pages')
 
+git push -f origin master для слияния ветки в репо
 
 
 
