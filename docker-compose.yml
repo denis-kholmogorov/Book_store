@@ -10,8 +10,10 @@ services:
     depends_on:
       - db
     environment:
-      - SECRET_KEY=$${1234}
+      - SECRET_KEY=Your_key
       - DEBUG=1
+      - STRIPE_TEST_PUBLISHABLE_KEY=Your_key
+      - STRIPE_TEST_SECRET_KEY=Your_key
   db:
     image: postgres:11
     volumes:

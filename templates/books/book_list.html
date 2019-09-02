@@ -3,6 +3,9 @@
 {% block title %}Книги{% endblock title %}
 
 {% block content %}
+{% if 'special_status' not in user.get_all_permissions  %}
+<a href="{% url 'orders'%}" class="btn btn-success"> Купить книги </a>
+{% endif %}
     {% for book in book_list %}
         <div>
             <h2><a href="{{ book.get_absolute_url }}">{{ book.title }}</a></h2>
