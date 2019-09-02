@@ -21,6 +21,7 @@ def charge(request):
     u = request.user
     u.user_permissions.add(permission)
 
+
     if request.method == 'POST':
         charge = stripe.Charge.create(
             amount=3900,

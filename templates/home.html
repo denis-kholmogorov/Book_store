@@ -7,6 +7,9 @@
 {% block content %}
 
 <h1>Книги</h1>
-  <img class="bookcover" src="{% static 'images/book.jpg' %}">
 
+  <form class="form-inline mt-2 mt-md-0" action="{% url 'search_results' %}" method="get">
+    <input name="q" class="form-control mr-sm-2" type="text" placeholder="Поиск" aria-label="Поиск">
+  </form>
+  <img class="bookcover" src="{% static 'images/book.jpg' %}">
 {% endblock content %}
